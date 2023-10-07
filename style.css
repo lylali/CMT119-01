@@ -2,30 +2,30 @@
     font-size: 62.5%;
 } */
 /* TOP LEVEL */
-body {
+.page-title {
+    color: rgba(0,0,0,0.8);
+    margin: 20px 10px 20px 10px;
+    font-size: 3.2rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    line-height:0.7;
+}
+h4 {
     height: 100%;
-    max-height: 100%;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
-    font-size: 1.8rem;
-    line-height: 1.75em;
+    font-weight: lighter;
+    font-size: 0.5rem;
+    text-decoration-line: underline;
+    font-family: calibri light;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
+    line-height:0;
+}
+.main-header {
+    text-align: center;
+    padding: 80px 10px;
+    background: #F9F9F9;
     text-rendering: geometricPrecision;
-}
-
-h2 {
-  font-size: 1.7em;
-  color: #2E2E2E;
-  margin-bottom: 0.4em;
-}
-
-p {
-  font-size: 1.8rem;
-  color: #3A4145;
-  margin-bottom: 10px;
 }
 
 
