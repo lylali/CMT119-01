@@ -1,0 +1,138 @@
+/* html {
+    font-size: 62.5%;
+} */
+/* TOP LEVEL */
+body {
+    height: 100%;
+    max-height: 100%;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    color: #3A4145;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: #2E2E2E;
+  margin-bottom: 0.4em;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #3A4145;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* HEADER SECTION */
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.site-wrapper {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 20%;
+    float: left;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.avatar {
+  width: 118px;
+  border-radius: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.sidebar li {
+  margin: 0.4em 0;
+  text-align: left;
+}
+
+.sidebar footer {
+  margin: 8rem 0 0 0;
+  padding: 1rem 15px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #BBC7CC;
+}
+
+.sidebar a {
+  color: #4A4A4A;
+  transition: color 0.3s ease;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: color;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+
+
+
+/* MAIN */
+.main {
+  width: 75%;
+  float: right;
+  display: block;
+}
+
+.post {
+    position: relative;
+    width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
+}
+
+.post-excerpt p {
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+
+.post-date {
+    display: inline-block;
+    /* margin-left: 8px; */
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.post-meta {
+    display: block;
+    /* margin: 1.75rem 0 0 0; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #9EABB3;
+}
