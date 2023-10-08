@@ -136,3 +136,11 @@ h4 {
     line-height: 2.2rem;
     color: #9EABB3;
 }
+
+.previous-articles a {
+  text-decoration: none;
+}
+
+.previous-articles a:hover {
+  text-decoration: underline;
+}
