@@ -13,7 +13,13 @@ body {
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    color: #2E2E2E;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    font-family: "Open Sans", sans-serif;
+    text-rendering: geometricPrecision;
+}
 
 a {
     color: #4A4A4A;
@@ -39,6 +45,11 @@ h4 {
     -webkit-font-feature-settings: 'kern' 1;
     line-height:0;
 }
+h2 {
+    font-size: 3.6rem;
+    letter-spacing: -1px;
+}
+
 .main-header {
     text-align: center;
     padding: 80px 10px;
