@@ -166,3 +166,7 @@ h4 {
 .previous-articles a:hover {
   text-decoration: underline;
 }
+
+.previous-articles {
+    font-size: 1.8rem;
+}
