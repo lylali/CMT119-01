@@ -29,12 +29,24 @@ a {
 .page-title {
     color: rgba(0,0,0,0.8);
     margin: 20px 10px 20px 10px;
-    font-size: 2.5rem;
+    font-size: 5rem;
     letter-spacing: -1px;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
     line-height:0.7;
 }
+
+.page-description {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    color: rgba(255,255,255,0.8);
+}
+
+
 h4 {
     height: 100%;
     font-weight: lighter;
